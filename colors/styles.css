@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000;
+}
+
+.container {
+  min-height: 100vh;
+  width: 100%;
+}
+
+.container > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+button {
+  width: 150px;
+  height: 50px;
+  border: 2px solid #fff;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+button:hover {
+  transform: scale(1.2);
+}
