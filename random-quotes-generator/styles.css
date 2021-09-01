@@ -32,10 +32,12 @@ body {
   height: 150px;
   margin: 20px;
   padding: 20px;
+  width: 620px;
 }
 
 .quotes p {
   font-size: 18px;
+  text-align: center;
 }
 
 button {
