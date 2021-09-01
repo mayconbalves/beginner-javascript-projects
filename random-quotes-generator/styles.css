@@ -5,8 +5,10 @@
 }
 
 body {
-  background-color: #4ab7ff;
-  color: #fff;
+  -webkit-animation: bgcolor 5s infinite;
+  animation: bgcolor 5s infinite;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
 }
 
 .container {
@@ -46,4 +48,26 @@ button {
   cursor: pointer;
   height: 40px;
   width: 120px;
+}
+
+@keyframes bgcolor {
+  0% {
+    background-image: radial-gradient(circle, #5c0067 0%, #00d4ff 100%);
+  }
+
+  30% {
+    background-image: radial-gradient(circle, #66bf39 0%, #00d4ff 100%);
+  }
+
+  60% {
+    background-image: radial-gradient(circle, #0077ff 0%, #00ffaa 100%);
+  }
+
+  90% {
+    background-image: radial-gradient(circle, #66bf39 0%, #00d4ff 100%);
+  }
+
+  100% {
+    background-image: radial-gradient(circle, #5c0067 0%, #00d4ff 100%);
+  }
 }
