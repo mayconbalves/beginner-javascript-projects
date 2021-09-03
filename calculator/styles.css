@@ -5,6 +5,31 @@
 }
 
 .container {
-  min-width: 100vh;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
   width: 100%;
+}
+
+.calculator {
+  align-items: center;
+  background-color: rgb(112, 255, 176);
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  width: 400px;
+}
+
+.display {
+  background-color: rgba(255, 255, 255, 0.5);
+  margin: 20px auto;
+  height: 100px;
+  width: 90%;
+}
+
+.keyboard {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 240px;
+  width: 90%;
 }
